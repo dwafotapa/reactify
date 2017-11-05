@@ -1,0 +1,38 @@
+.Header {
+  align-items: center;
+  background-color: #191414;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+
+  .HeaderCenter {
+    align-content: center;
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: center;
+    width: 200px;
+
+    a {
+      color: white;
+      display: flex;
+      text-decoration: none;
+
+      img {
+        animation: App-logo-spin infinite 20s linear;
+        height: 43px;
+  
+        @keyframes App-logo-spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+      }
+  
+      span {
+        padding-left: 5px;
+      }
+    }
+  }
+}

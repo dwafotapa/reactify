@@ -1,5 +1,28 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  background-color: #282828;
+  flex: 1 0 auto;
+}
+
+button {
+  background-color: #1db954;
+  border: none;
+  border-radius: 5em;
+  color: white;
+  font-size: 0.7em;
+  padding: 9px 34px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #1ed760;
 }
