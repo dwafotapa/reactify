@@ -5,15 +5,19 @@
   display: flex;
   justify-content: center;
   padding: 10px;
-  text-align: center;
+
+  .HeaderLeft {
+    flex: 1;    
+  }
 
   .HeaderCenter {
     align-content: center;
     display: flex;
+    flex: 1;
     font-size: 2em;
     font-weight: bold;
     justify-content: center;
-    width: 200px;
+    // width: 200px;
 
     a {
       color: white;
@@ -33,6 +37,16 @@
       span {
         padding-left: 5px;
       }
+    }
+  }
+
+  .HeaderRight {
+    flex: 1;
+    text-align: right;
+
+    .HeaderButtonLogout {
+      background-color: white;
+      color: #191414;
     }
   }
 }

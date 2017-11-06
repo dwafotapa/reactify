@@ -3,7 +3,7 @@ import styles from './Home.modules.css';
 
 const Home = () => (
   <main className={styles.Home}>
-    <button>Log in</button>
+    Logged in
   </main>
 );
 
